@@ -1,0 +1,5 @@
+.article__heading {
+    margin-top: 6rem;
+    position: relative;
+    z-index: 3;
+}

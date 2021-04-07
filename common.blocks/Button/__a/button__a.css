@@ -1,0 +1,10 @@
+.button__a {
+    color: white;
+    background-color: black;
+    padding: 0.8rem 1.6rem;
+    text-decoration: none;
+    font-size: 0.8rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
