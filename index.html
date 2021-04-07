@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DUSKO</title>
+
+    <link rel="stylesheet" href="./common.blocks/css-reset.css">
+    <link rel="stylesheet" href="./common.blocks/index.css">
+    <link rel="stylesheet" href="./common.blocks/article.css">
+    <link rel="stylesheet" href="./common.blocks/hero.css">
+    <link rel="stylesheet" href="./common.blocks/nav.css">
+    <link rel="stylesheet" href="./common.blocks/index-wrapper.css">
+    <link rel="stylesheet" href="./common.blocks/button.css">
+    <link rel="stylesheet" href="./common.blocks/heading.css">
+    <link rel="stylesheet" href="./common.blocks/shop-gallery.css">
+
+    <link rel="stylesheet" href="./common.blocks/Nav/__li/Nav__li.css">
+    <link rel="stylesheet" href="./common.blocks/Nav/__a/Nav__a.css">
+    <link rel="stylesheet" href="./common.blocks/Nav/__ul/Nav__ul.css">
+    <link rel="stylesheet" href="./common.blocks/Nav/__a/_theme_dusko/a_theme_dusko.css">
+
+    <link rel="stylesheet" href="./common.blocks/Article/__p/Article__p.css">
+    <link rel="stylesheet" href="./common.blocks/Article/__heading/article__heading.css">
+
+    <link rel="stylesheet" href="./common.blocks/Index-wrapper/__article/Index-wrapper__article.css">
+    <link rel="stylesheet" href="./common.blocks/Index-wrapper/__hero/Index-wrapper__hero.css">
+    <link rel="stylesheet" href="./common.blocks/Index-wrapper/__nav/Index-wrapper__nav.css">
+    <link rel="stylesheet" href="./common.blocks/Index-wrapper/__shop-gallery/Index-wrapper__shop-gallery.css">
+    <link rel="stylesheet" href="./common.blocks/Index-wrapper/__flex-container/Index-wrapper__flex-container.css">
+    <link rel="stylesheet" href="./common.blocks/Index-wrapper/__button/Index-wrapper__button.css">
+
+    <link rel="stylesheet" href="./common.blocks/Hero/__image/Hero__image.css">
+
+    <link rel="stylesheet" href="./common.blocks/Shop-gallery/__image/Shop-gallery__image.css">
+
+    <link rel="stylesheet" href="./common.blocks/Heading/_color/heading_color_light.css">
+    <link rel="stylesheet" href="./common.blocks/Heading/_size/heading_size_medium.css">
+    <link rel="stylesheet" href="./common.blocks/Heading/_size/heading_size_xl.css">
+
+    <link rel="stylesheet" href="./common.blocks/Button/__a/button__a.css">
+    
+</head>
+<body>  
+
+    <!-- WRAPPER BLOCK // index-wrapper.css -->
+    <div class="Index-wrapper"> 
+
+        <!-- NAVIGATION BLOCK TEMPLATE // nav.css-->
+        <nav class="index-wrapper__nav Nav"> 
+            <ul class="nav__ul">
+                <li class="nav__li">
+                    <a href="./index.html" class="nav__a a_theme_dusko">Home</a>
+                </li>
+                <li class="nav__li">
+                    <a href="./shop.html" class="nav__a a_theme_dusko">Shop</a>
+                </li>
+                <li class="nav__li">
+                    <a href="./about.html" class="nav__a a_theme_dusko">About</a>
+                </li>
+                <li class="nav__li">
+                    <a href="./journal.html" class="nav__a a_theme_dusko">Journal</a>
+                </li>
+            </ul>
+        </nav>
+
+        <div class="index-wrapper__button Button">
+            <a href="./shop.html" class="button__a">Explore Shop</a>
+        </div>
+         <!-- button.css -->
+        
+        <!-- HERO BLOCK TEMPLATE // hero.css -->
+        <div class="index-wrapper__hero Hero">
+            <img src="./assets/images/sketching.jpg" alt="DUSKO sketching" class="hero__image">
+        </div>
+        
+        <section class="index-wrapper__shop-gallery">
+            <h2 class="Heading heading_size_medium">Selection</h2> <!-- Heading.css --> 
+            <!-- SHOP GALLERY BLOCK TEMPLATE // shop-gallery.css --> 
+            <figure class="Shop-gallery">
+                <img src="./assets/images/t-shirt-female.jpg" alt="DUSKO t shirt female" class="shop-gallery__image">
+                <img src="./assets/images/t-shirt-male.jpg" alt="DUSKO t shirt male" class="shop-gallery__image">
+                <img src="./assets/images/t-shirt-female.jpg" alt="DUSKO t shirt female" class="shop-gallery__image">
+                <img src="./assets/images/t-shirt-male.jpg" alt="DUSKO t shirt male" class="shop-gallery__image">
+                <img src="./assets/images/t-shirt-female.jpg" alt="DUSKO t shirt female" class="shop-gallery__image">
+                <img src="./assets/images/t-shirt-male.jpg" alt="DUSKO t shirt male" class="shop-gallery__image">
+            </figure>
+        </section>
+        
+        <!-- ARTICLE BLOCK TEMPLATE // article.css -->
+        <article class="index-wrapper__article Article">
+            <h2 class="Heading heading_size_medium heading_color_light article__heading">Behind <br>the Brand</h2> <!-- Heading.css -->
+            <p class="article__p">It all started with the drive to create something bigger & better than what was already out there. Hours of drawing, thinking, re-thinking, iterating, and finally creating, all to result in a lifestyle brand with some serious bite. DUSKO isn't just polite t-shirts and socks, it's a collection of everyday details that give you that kick of inspiration, the drive to keep going, get s*** done.</p>
+        </article>
+    </div>
+
+
+</body>
+</html>
